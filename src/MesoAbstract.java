@@ -1,4 +1,4 @@
 public abstract class MesoAbstract 
 {
-   //TODO	
+   public abstract int[] calAverage();	
 }
