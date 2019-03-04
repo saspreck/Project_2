@@ -12,5 +12,6 @@ public class MesoInherit extends MesoAbstract {
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
 		}
+		ASCIIvalues[2] = total / 4.0;
 	}
 }
