@@ -20,4 +20,8 @@ public class MesoInherit extends MesoAbstract {
 		
 		return ASCIIvalues;
 	}
+	
+	public char letterAverage() {
+		
+	}
 }
