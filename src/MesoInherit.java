@@ -8,6 +8,7 @@ public class MesoInherit extends MesoAbstract {
 	
 	public int[] calAverage() {
 		int[] ASCIIvalues = new int[4];
+		int total = 0;
 		for(int i = 0; i < 4; i++) {
 			
 		}
