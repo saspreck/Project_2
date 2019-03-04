@@ -17,5 +17,7 @@ public class MesoInherit extends MesoAbstract {
 		
 		ASCIIvalues[0] = (int) Math.ceil(average);
 		ASCIIvalues[1] = (int) Math.floor(average);
+		
+		return ASCIIvalues;
 	}
 }
