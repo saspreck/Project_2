@@ -1,5 +1,7 @@
 public class MesoInherit extends MesoAbstract {
 	
+	private String StID;
+	
 	public MesoInherit(MesoStation StID) {
 		
 	}
