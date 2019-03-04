@@ -7,11 +7,14 @@ public class MesoInherit extends MesoAbstract {
 	}
 	
 	public int[] calAverage() {
-		int[] ASCIIvalues = new int[4];
+		int[] ASCIIvalues = new int[3];
 		int total = 0;
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
 		}
-		ASCIIvalues[2] = total / 4.0;
+		int average = total / 4;
+		ASCIIvalues[2] = average;
+		
+		ASCIIvalues[0] = Math.ceil(average);
 	}
 }
