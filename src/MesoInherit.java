@@ -15,9 +15,11 @@ public class MesoInherit extends MesoAbstract {
 	public int[] calAverage() {
 		ASCIIvalues = new int[3];
 		int total = 0;
+		//iterates through StID and adds the ASCII values
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
 		}
+		//calculates the average value and puts it into the array
 		double average = total / 4.0;
 		ASCIIvalues[2] = (int) average;
 		
