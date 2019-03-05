@@ -1,7 +1,9 @@
 public class MesoInherit extends MesoAbstract {
 	
+	//declares the private variable StID
 	private String StID;
 	
+	//creates the constructor for the MesoInherit object
 	public MesoInherit(MesoStation StID) {
 		this.StID = StID.getStID();
 	}
