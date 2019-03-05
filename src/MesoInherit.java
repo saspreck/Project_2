@@ -19,13 +19,20 @@ public class MesoInherit extends MesoAbstract {
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
 		}
-		//calculates the average value and puts it into the array
+		//calculates the average value
 		double average = total / 4.0;
-		ASCIIvalues[2] = (int) average;
 		
 		//puts the floor and ceiling values into the array
 		ASCIIvalues[0] = (int) Math.ceil(average);
 		ASCIIvalues[1] = (int) Math.floor(average);
+		
+		//checks if the average should round down or up
+		if ((int) (average + 0.5) == (int) average) {
+			ASCIIvalues[2] = ASCIIvalues[1];
+		}
+		else {
+			ASCIIvalues[2] = ASCIIvalues[0];
+		}
 		
 		// returns the array
 		return ASCIIvalues;
