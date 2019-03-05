@@ -6,8 +6,10 @@ public class MesoInherit extends MesoAbstract {
 		this.StID = StID.getStID();
 	}
 	
+	private int[] ASCIIvalues;
+	
 	public int[] calAverage() {
-		int[] ASCIIvalues = new int[3];
+		ASCIIvalues = new int[3];
 		int total = 0;
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
