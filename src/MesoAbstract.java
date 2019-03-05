@@ -1,6 +1,8 @@
 public abstract class MesoAbstract 
 {
-   public abstract int[] calAverage();
+	//declared the abstract method calAverage
+	public abstract int[] calAverage();
    
-   public abstract char letterAverage();
+	//declared the abstract method letterAverage
+	public abstract char letterAverage();
 }
