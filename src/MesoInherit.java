@@ -14,8 +14,8 @@ public class MesoInherit extends MesoAbstract {
 		for(int i = 0; i < 4; i++) {
 			total += StID.charAt(i);
 		}
-		int average = total / 4;
-		ASCIIvalues[2] = average;
+		double average = total / 4.0;
+		ASCIIvalues[2] = (int) average;
 		
 		ASCIIvalues[0] = (int) Math.ceil(average);
 		ASCIIvalues[1] = (int) Math.floor(average);
