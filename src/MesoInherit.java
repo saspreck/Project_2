@@ -8,8 +8,10 @@ public class MesoInherit extends MesoAbstract {
 		this.StID = StID.getStID();
 	}
 	
+	//declares the int array to store the ASCII values
 	private int[] ASCIIvalues;
 	
+	//implementation of the calAverage method inherited from the MesoAbstract class
 	public int[] calAverage() {
 		ASCIIvalues = new int[3];
 		int total = 0;
